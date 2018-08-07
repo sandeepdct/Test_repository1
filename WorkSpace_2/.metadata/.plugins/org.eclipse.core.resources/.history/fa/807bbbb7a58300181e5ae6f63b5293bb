@@ -1,0 +1,30 @@
+package TP;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FG_EU_Login {
+	
+	public static String allowCookiebtn= "//*[@id=\"arve\"]/body/div[2]/div[1]/a";
+	public static String url= "https://qa.firstgiving.com/Signin";
+	public static String emailField= "loginEmail";
+	public static String passwordField= "loginPassword";
+	public static String signinBtn= "//*[@id=\"loginForm\"]/ul/li[7]/input";
+	
+	public static String emailid= "fahad.siddiqui@dctinc.com";
+	public static String password= "password1";
+	
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		String exePath = "D:\\chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver", exePath);
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get(url);
+		Thread.sleep(5000);
+		
+		
+	}
+
+}

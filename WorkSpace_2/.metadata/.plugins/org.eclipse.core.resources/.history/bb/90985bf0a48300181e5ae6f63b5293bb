@@ -1,0 +1,20 @@
+package TP;
+
+public class FG_EU_Login {
+	
+	String allowCookiebtn= "//*[@id=\"arve\"]/body/div[2]/div[1]/a";
+	String url= "https://qa.firstgiving.com/Signin";
+	String emailField= "loginEmail";
+	String passwordField= "loginPassword";
+	String signinBtn= "//*[@id=\"loginForm\"]/ul/li[7]/input";
+	
+	String emailid= "";
+	String password= "";
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+}
